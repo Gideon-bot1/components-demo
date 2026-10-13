@@ -1,10 +1,20 @@
+<script>
+let { 
+    person = {
+    fullName: "Default person",
+    favouriteSong: "Arrow through me",
+    petsName: "Roger Rabbit",
+    }
+} = $props()
+</script>
+
 <section>
-    <h2>Phill Connors</h2>
+    <h2>{person.fullName}</h2>
     <dl>
-        <dt>Favourite song:</dt>
-        <dd>I Got You Babe</dd>
+        <dt>Favourite Song:</dt>
+        <dd>{person.favouriteSong}</dd>
         <dt>Pet's name:</dt>
-        <dd>Punxsutawney Phil</dd>
+        <dd>{person.petsName}</dd>
     </dl>
 </section>
 

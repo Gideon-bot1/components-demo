@@ -1,11 +1,20 @@
 <script>
-    import Picture from "./card-internals/Picture.svelte";
+    //import Picture from "./card-internals/Picture.svelte";
     import Details from "./card-internals/Details.svelte";
+    let { person } = $props()
+
+    /*let person = 
+    {
+        fullName: "Phill Conners",
+        favouriteSong: "I Got You Babe",
+        petsName:"Punxsutawney"
+    }
+    */
 </script>
 
 <article class="card">
-    <Picture />
-    <Details />
+    <Picture image={person.image}/>
+    <Details person = {person} />
 </article>
 
 <style>
