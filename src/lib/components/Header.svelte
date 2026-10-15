@@ -3,6 +3,9 @@
     <p>For more information, view the <a href="https://svelte.dew/tutorial">Svelte tutorial</a></p>
     <nav>
         <a href="/">Home</a>
+        <a href="/Dashboard">Dashboard</a>
+        <a href="/About">About</a>
+       
     </nav>
 </header>
 
