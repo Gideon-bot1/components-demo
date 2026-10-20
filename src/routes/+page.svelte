@@ -27,6 +27,19 @@
             image: "",
         },
     ];
+
+    <script>
+    import Card from `$lib/components/Card.svelte`
+    let { data } = $props();
+    $inspect(data);
+</script>
+
+<card />
+<card />
+<card />
+<card />
+<card />
+<card />
 </script>
 
 <main>
